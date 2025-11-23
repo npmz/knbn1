@@ -13,6 +13,7 @@
 <body>
 <div id="app">
     <column v-for="(column, index) in columns" :key="index" :column="column" :column-index="index" @move-card="moveCard" @edit-card="editCard"></column>
+    <column v-for="(column, index) in columns" :key="index" :column="column" :column-index="index" @move-card="moveCard" @edit-card="editCard" @delete-card="deleteCard"></column>
 </div>
 </body>
 </html>
