@@ -30,8 +30,7 @@ Vue.component('card', {
             const reason = prompt('Укажите причину возврата в работу:');
             if (reason) {
                 this.$emit('move-card', 1, reason);
-
-            else {
+            }else {
                     console.log('Причина возврата не указана');
                 }
             }
