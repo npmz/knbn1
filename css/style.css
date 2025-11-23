@@ -12,9 +12,9 @@ body{
     border: 1px solid gray;
     padding: 25px;
     width: 250px;
-    background-color: rgba(253,190,207, .5);
+    background-color: rgba(77, 63, 241, 0.5);
     border-radius: 10px;
-    box-shadow: 6px 9px 9px 0 rgba(0, 0, 0, 0.54);
+    box-shadow: 6px 9px 9px 0 rgba(14, 38, 80, 0.54);
 }
 
 .note {
@@ -51,8 +51,8 @@ ul {
 }
 
 .but {
-    background-color: rgb(223,186,230);
-    box-shadow: 14px 9px 9px 0 rgba(0, 0, 0, 0.54);
+    background-color: rgb(53, 47, 136);
+    box-shadow: 14px 9px 9px 0 rgb(22, 34, 59);
     margin-top: 20px;
     padding: 10px;
     font-family: sans-serif;
